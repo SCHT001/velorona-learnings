@@ -20,7 +20,7 @@ const Body = (props) => {
 		<div className="w-full border border-black">
 			<h1>{props.text}</h1>
                 {tasks.map((task) => {
-                    return <Card key={task.id} title={task.title} />;
+                    return <Card key={task.id} title={task.title} completed={task.completed} />;
                 })} 
             {console.log(tasks)}
 		</div>
