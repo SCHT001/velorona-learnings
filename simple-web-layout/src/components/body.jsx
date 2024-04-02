@@ -36,9 +36,14 @@ import CounterBody from "./counterComponents/main";
 // };
 
 import Form from "./basicForm/main";
+import ColorPicker from "./colorPicker/main";
 const Body = (props) => {
-    return (
-        <Form></Form>
-    )
+	return (
+		<>
+			<Form></Form>
+			<ColorPicker></ColorPicker>
+		</>
+	);
 };
+
 export default Body;
