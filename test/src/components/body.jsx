@@ -4,7 +4,6 @@ import CounterBody from "./counterComponents/main";
 
 // const Body = (props) => {
 // 	const [tasks, setTasks] = useState([]);
-// 	// let tasks=[];
 // 	useEffect(() => {
 // 		fetch("https://jsonplaceholder.typicode.com/todos/")
 // 			.then((response) => response.json())
@@ -28,7 +27,6 @@ import CounterBody from "./counterComponents/main";
 // 							/>
 // 						);
 // 					})}
-// 					{/* {console.log(tasks)} */}
 // 				</div>
 // 			</div>
 // 		</>

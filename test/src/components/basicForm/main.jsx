@@ -5,9 +5,9 @@ const Form = () => {
 
     const handelChange=(e)=>{
         
-        e.target.name=='name' && setName(e.target.value);
-        e.target.name=='email' && setEmail(e.target.value);
-        e.target.name=='age' && setAge(e.target.value);
+        e.target.name=='name' && setName(()=>e.target.value);
+        e.target.name=='email' && setEmail(()=>e.target.value);
+        e.target.name=='age' && setAge(()=>e.target.value);
     }
 
     const [name, setName] = useState("");  
